@@ -4,10 +4,19 @@ public class main {
         System.out.print("Hello World");
 
         //1. Tạo thư mục .git
-        // commit : phát tín hiệu
+        // git init
 
-        // (fix) git config --global user.name "first name lasts name"
-        //       git config --global user.emal "my_name@Exanoke.com"
+        //2. xem su thay đổi
+        //git status
+
+        //3, lưu trữ sự thay đổi
+        //git add .
+
+        //4 lưu trữ vào local repo
+        //git commit -m "ten message"
+
+
+
 
 
     }
