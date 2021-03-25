@@ -20,7 +20,7 @@
 public class main {
 
     public static void main(String [] args) throws Exception{
-        System.out.print("Hello World");
+        System.out.println("Hello World");
 
 //        1: comment code
 //        System.out.print"Hello World"
@@ -32,6 +32,29 @@ public class main {
 //
 //        -NHÓM KI?U D? LI?U Đ?I TƯ?NG :	 H? tr? các phương th?c x? ly
 //        Viết hoa chữ đầu 	String , Int , Boolean , Double , Float , CharSequence .....
+
+
+
+        //3. Khai báo  biến
+//            String name = "Gia Khánh" ;
+//            int age = 24;
+//            float s1 = 1.5f;
+//            double s2 = 1.5;
+//            char s3 = 'a';
+
+        //4 . Toán tử
+        /*
+        Toán hạng : 1 , 2 , 3
+        Toán tử : + - * /
+        Biểu thức : Phải có giá trị trả về
+         */
+        int a = 5;
+        int b = 5;
+        int c = a-- + --b - --b - --a + b-- - --a;
+        /*
+            5 + 4 - 3 -3 -3 + 3 - 2
+         */
+        System.out.println(c);
 
     }
 }
